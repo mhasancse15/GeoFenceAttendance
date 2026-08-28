@@ -220,27 +220,3 @@ data class AttendanceUiState(
 )
 ```
 
-### Computed Properties
-- `canMarkAttendance`: Derived boolean checking all preconditions
-- `windowLabel`: Human-readable time window display
-
-## 🔜 Planned Enhancements
-
-- [ ] Backend API integration for attendance submission
-- [ ] Location accuracy filtering (GPS signal strength)
-- [ ] Multiple office locations support
-- [ ] Attendance history & analytics dashboard
-- [ ] Real Google Maps integration (with API key)
-- [ ] Biometric authentication (fingerprint/face)
-- [ ] Offline-first sync capabilities
-- [ ] Unit tests (LocationRepository, ViewModel)
-- [ ] Integration tests (end-to-end flows)
-- [ ] Firebase Crashlytics integration
-
-## 🐛 Known Limitations
-
-- Requires clear line-of-sight for GPS (outdoor recommendation)
-- Location accuracy depends on device hardware and environment
-- No API key required (local testing only - replace with backend for production)
-- Single office location only (extensible to multi-office)
-
