@@ -244,12 +244,3 @@ data class AttendanceUiState(
 - No API key required (local testing only - replace with backend for production)
 - Single office location only (extensible to multi-office)
 
-## 📄 License
-
-Apache License 2.0
-
----
-
-**Last Updated**: August 28, 2026  
-**Version**: 1.0.0  
-**Maintainer**: Development Team
